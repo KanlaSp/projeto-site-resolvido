@@ -1,0 +1,481 @@
+/*paletas:606C38, 283618, FEFAE0, DDA15E, BC6C25*/
+body{
+    background-color:rgb(199, 185, 170);
+}
+.logo{
+    border-radius: 5%;
+    padding: 5px;
+    width: 170px;
+}
+.logo:hover{
+    background-color: #FEFAE0;
+transition-duration: 0.25s;
+}
+h1{
+padding-left: 1.5%;
+}
+header{
+    background-color: rgba(99, 44, 0, 0.692);
+display: flex;
+align-items: center;
+transition: 0.5s;
+}
+/*menu*/
+.li{
+
+padding: 5px;
+    font-family: "Cooper black", "Helvetica Neue", Helvetica, sans-serif;
+background-color: #FEFAE0;
+   border-radius: 4%;
+   display: inline;
+margin-left: 15px;
+
+}
+.li:hover{
+    background-color: rgba(99, 44, 0, 0.692);
+    transition-duration: 0.5s;
+}
+details{
+
+    padding: 5px;
+        font-family: "Cooper black", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #FEFAE0;
+       border-radius: 4%;
+       display: inline;
+    margin-left: 15px;
+    
+    }
+    details:hover{
+        background-color: rgba(99, 44, 0, 0.692);
+        transition-duration: 0.5s;
+    }
+
+.ccardapio{
+ 
+    position: fixed;
+
+
+}
+.menu{
+    font-size: 30px;
+    display:flex;
+justify-content: center;
+
+}
+/**/
+h2{
+    text-align: center;
+    font-family: "cooper black";
+    color: #FEFAE0;
+}
+.a{
+    img{
+        height: 40%;
+    }
+    border: 2px solid #DDA15E;
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #DDA15E;
+    align-items: center;
+}
+.conteudo{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;  
+    word-break: break-all;
+    margin-top: 10%;
+    border-radius: 5%;
+    height: 40%;
+background-color:#BC6C25;
+
+}
+
+
+content{
+display:flex;
+justify-content: center;
+
+
+}
+p{
+    padding-top: 10%;
+    font-size: 16px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nome{
+    padding-top: 5px;
+}
+.email{
+    padding-top: 5px;
+}
+.msg{
+    display: flex;
+    padding-top: 5px;
+align-items: center;
+    resize: none;
+}
+button{
+    
+    margin-top: 5%;
+    background-color: #DDA15E;
+    padding: 10px;
+}
+button:hover{
+    background-color: #FEFAE0;
+    transition-duration: 0.5s;
+
+}
+.capuccino{
+
+    width: 70%;
+}
+.conpanna{
+    width: 59%;
+}
+.localização{
+    width: 500px;
+    height: 500px;
+    background-image: url(torre-eiffel.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    width: 40%;
+    border-radius: 5%;
+    height: 50%;
+    position: absolute;
+}
+.localização1{
+    right:0%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url(shutterstock_1474895630-scaled.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    width: 40%;
+    border-radius: 5%;
+    height: 50%;
+}
+.trabalhe{
+    right: 60%;
+position: absolute;
+border-radius: 5px;
+background-repeat: no-repeat;
+
+background-image: url(Flavors-cafeteria.gif);
+width: 35%;
+height: 50%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+text-align: center;
+}
+.imgrequisitos{
+    position: absolute;
+    left: 60%;
+    background-repeat: no-repeat;
+    background-image: url(file-20230726-21-mojlsq.avif);
+width: 50%;
+height: 50%;
+
+}
+h3{
+    font-size: 35px;
+    color: #FEFAE0;
+    margin: 5px;
+margin-top: 40%;
+}
+.txtrequisitos{
+text-align: left;
+
+}
+.ulrequisitos{
+    font-size: 20px;
+    font-family: "cooper black";
+    color: #FEFAE0;
+display: inline;
+text-align: calc(1.5%y);
+}
+.ctxt{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.whatsapp{
+    img{
+        width: 45px;
+    }
+    background-color: #Ffffff;
+  height: 50px;
+  p{
+    color: black;
+  }
+}
+.cardapiobga{
+position: absolute;
+    width: 99%;
+    height:100%;
+    background-color: #FEFAE0;
+
+}
+.doces{
+opacity: 0.75;
+    background-image: url(moist-chocolate-cupcakes-5.jpg);
+    background-size: 100%;
+    background-position: 25%;
+    margin-top: 2.5%;
+    margin-left: 25%;
+    border-radius: 5%;
+    height: 32.5%;
+    width: 20%;
+    border: solid #BC6C25 2px;
+}
+.doces:hover{
+    background-image: url(Bolo-de-Festa-Chocolate-com-Brigadeiro-e-Morango_baixa-768x768.jpg);
+    transition-duration: 1s;
+    opacity: 1;
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+    color: #ebffab;
+}
+.salgados{
+    opacity: 0.75;
+    background-position: 25%;
+    background-image: url(Coxinhas_apertura.jpg);
+    background-repeat: no-repeat;
+    background-size: 155%;
+    margin-top: -7.5%;
+    margin-left: 50%;
+    border-radius: 5%;
+    height: 32.5%;
+    width: 20%;
+    border: solid #BC6C25 2px;
+
+}
+.salgados:hover{
+    transition-duration: 1s;
+    opacity: 1;
+    background-image: url(torta_frango_requeijao_615x500px-min-2-e1637679483871.png);
+background-size: cover;
+}
+.cafes{
+    opacity: 0.75;
+    background-image: url(IMG_2114-1024x768.jpg);
+    background-size: 135%;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    margin-top: -4%;
+    margin-left: 25%;
+    border-radius: 5%;
+    height: 32.5%;
+    width: 20%;
+    border: solid #BC6C25 2px;
+}
+.cafes:hover{
+    transition-duration: 1s;
+    opacity: 1;
+    background-image: url(plantas-Brasil-cha.webp);
+background-size: cover;
+}
+.bebidas{
+    opacity: 0.75;
+    background-image: url(7b6df883e42b4e585f745e7be290cb50.avif);
+    background-size: 135%;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    margin-top: -7.5%;
+    margin-left: 50%;
+    border-radius: 5%;
+    height: 32.5%;
+    width: 20%;
+    border: solid #BC6C25 2px;
+}
+.bebidas:hover{
+    background-image: url(11043992.jpg);
+    transition-duration: 1s;
+}
+.escondido{
+    font-size: 0;
+}
+.cinema{
+    margin-top: 2.5%;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-image: url(sala_de_cinemaagencia_brasilia31122000938.webp);
+    position: absolute;
+    left: 20%;
+    width: auto ;
+    height: 100%;
+}
+.sobre{
+    margin: 14%;
+    width: 55%;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+.sobrenos{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(179,179,179,1) 24%, rgba(122,122,122,1) 50%, rgba(83,83,83,1) 77%, rgba(0,0,0,1) 100%);
+}
+.horario{
+position: absolute;
+left: 82.5%;
+bottom: 25%;
+width: 15%;
+height: 20%;
+}
+.frequencia{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(istockphoto-528493660-2048x2048.jpg);
+    bottom: 20%;
+    position: absolute;
+    width: 44%;
+    height: 30%;
+}
+.reputação{
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:1%;
+    position: absolute;
+}
+.categoria{
+    position: absolute;
+    background-color: #FEFAE0;
+    width: 100%;
+    height: 2.5%;
+    
+}
+.categoria2{
+    border: 2px solid #DDA15E;
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #DDA15E;
+    align-items: center;
+img{
+    width: 50%;
+    height: 35%;
+ }
+}
+.instagram{
+    img{
+        width: 150px;
+    }
+    display: inline-flex;
+background-color: #ffff;
+h5{
+    font-size: 20px;
+    font-family: cooper;
+}
+width: 17%;
+}
+.whatsapp{
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    display: inline-flex;
+    width: 17%;
+    height: 10%;
+    h5{
+        font-family: cooper;
+        font-size: 20px;
+    }
+}
+.facebook{
+    width: 17%;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    display: inline-flex;
+    h5{
+        font-family: cooper;
+        font-size: 20px;
+    }
+    background-color: #ffff;
+}
+.ccontatos{
+    text-align: center;
+}
+.valor{
+    text-align: center;
+    border-radius: 5px;
+    width: 500px;
+    h5{
+        font-family: cooper;
+        font-size: 15px;
+    }
+}
+.bug{
+    width: 35%;
+}
+.fale{
+    text-align: center;
+}
+.text {
+    word-break: break-all;
+    width: 100%;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 15px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin: 15px 15px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    margin: 15px;
+    resize: none;
+}
+
+button {
+    background-color: #BC6C25;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    width: 550px;
+}
+
+button:hover {
+    background-color: #6f4c3e;
+}

@@ -1,0 +1,5 @@
+imagem com a logo que leva para uma land page
+menu: mostra as opções
+sobre a empresa:
+contatos:whatsapp, localidade
+sugestões
